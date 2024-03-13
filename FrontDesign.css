@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 100vh;
+}
+
+.detail{
+  padding: 40pt
+}
+
