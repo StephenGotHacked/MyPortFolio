@@ -12,6 +12,11 @@ body {
 }
 
 .detail{
-  padding: 40pt
+  text-align: center;
+  margin-top: 130pt;
+  font-family: 'Lucida Sans', Lucida Sans Regular;
+  font-weight: bold;
+  color: rgb(67, 0, 83);
+  -webkit-text-stroke: 0.30pt rgb(255,255,255);
 }
 
