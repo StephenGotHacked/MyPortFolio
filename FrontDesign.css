@@ -11,7 +11,8 @@ body {
 
 #detail{
   text-align: center;
-  margin-top: 130pt;
+  margin-top: 150pt;
+  margin-bottom: 300pt
   font-family: 'Lucida Sans', 'Lucida Sans Regular';
   font-weight: bold;
   color: rgb(67, 0, 83);
