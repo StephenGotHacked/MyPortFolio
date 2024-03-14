@@ -10,10 +10,14 @@ body {
 }
 
 #detail{
+  background-color: rgba(20, 20, 20, 0.7);
   text-align: center;
-  margin-top: 150pt;
-  margin-bottom: 250pt;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  margin-top: 110pt;
+  margin-left: 140pt;
+  margin-right: 140pt;
+  padding-top: 40pt;
+  padding-bottom: 40pt;
+  font-family:'Lucida Sans', 'Lucida Sans Regular';
   font-weight: bold;
   color: rgb(67, 0, 83);
   -webkit-text-stroke: 0.80pt rgb(255, 255, 255);
