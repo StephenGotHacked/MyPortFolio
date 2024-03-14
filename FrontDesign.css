@@ -24,6 +24,6 @@ body {
   -webkit-text-stroke: 0.80pt rgb(255, 255, 255);
 }
 
-#detail:hover{
+#name:hover, #author:hover{
   transform: scale(1.1);
 }
