@@ -1,27 +1,32 @@
 <style>
-	.mainheader {
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
-	padding: 10px 20px;
-	color: white;
-	}
-	
-	.mainheader a {
-	text-decoration: none;
-	color: white;
-	margin-right: 20px;
-	transition: transform 0.3s;
-	}
-	
-	.mainheader a:hover {
-	transform: scale(1.1);
-	color: #eeff00;
-	}
-	
-	.mainheader .flex-center {
-	display: flex;
-	}
+	mainheader{
+        background-color: black;
+        display: flex;
+        padding: 20px 20px;
+        color: white; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        }
+        
+        .mainheader a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        transition: transform 0.3s;
+        }
+        
+        .mainheader a:hover {
+        transform: scale(1.1);
+        color: #eeff00;
+        }
+
+        .mainheader .flex-center {
+        display: flex;
+        position: fixed;
+        right: 0;
+        }
 	
 	.mainheader .github{
         animation: rotate 4s linear infinite;
@@ -86,8 +91,8 @@
 	<div class="mainheader">
 	
 		<a href="index.html" style="margin-right: 10px; margin-left: 100px;"> HOME </a>
+		<a href="AboutMe.html" style="margin-right: 20px;"> ABOUT ME</a>
 		<a href="404.html" style="margin-right: 20px;"> WEB DEVELOPMENT </a>
-		<a href="404.html" style="margin-right: 20px;"> ABOUT ME </a>
 		<a href="404.html" style="margin-right: 20px;"> RESUME </a>
 	
 	<div class="flex-center">
