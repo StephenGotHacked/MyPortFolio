@@ -29,12 +29,16 @@
 }
 .amp{
     padding-right: 50pt;
-    transition: transform 2s ease-in-out;
+    transition: transform 2s;
   }
 
 .amp:hover{
     transform: scale(1.4);
-    border-radius: 30pt;
+}
+
+.profpic:hover {
+    transition: all 2s;
+    border-radius: 50%;
 }
 
 .am{
