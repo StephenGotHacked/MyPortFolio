@@ -26,6 +26,7 @@
     border: 10pt;
     border-style: double;
     border-color: black;
+    transition: transform 0.4s;
 }
 .amp{
     padding-right: 50pt;
@@ -39,6 +40,7 @@
 .profpic:hover{
     border: 10pt solid black;
     border-radius: 40pt;
+    transition: scale(1.4);
 }
 .am{
     color: white;
