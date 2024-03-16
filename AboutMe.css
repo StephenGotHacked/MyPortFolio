@@ -34,9 +34,12 @@
 
 .amp:hover{
     transform: scale(1.4);
-    border-radius: 50% double black;
 }
 
+.profpic:hover{
+    border: 10pt solid black;
+    border-radius: 40pt;
+}
 .am{
     color: white;
     background-color: rgba(37, 37, 37, 0.7);
