@@ -1,4 +1,4 @@
-ko.container{
+.container{
     background-image: url(AboutMeBackground.gif);
     background-size: cover;
     background-position: center;
@@ -29,11 +29,12 @@ ko.container{
 }
 .amp{
     padding-right: 50pt;
-    transition: transform 2s;
+    transition: transform 0.4s;
   }
 
 .amp:hover{
     transform: scale(1.4);
+    border-radius: 50% double black;
 }
 
 .am{
