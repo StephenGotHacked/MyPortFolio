@@ -1,0 +1,12 @@
+.lenten{
+    background-color: rgb(255, 199, 115);
+    padding-top: 40pt;
+    padding-bottom: 40pt;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.tablstyle {
+    background-color: rgba(255, 199, 115, 0.7);
+    border: 10pt solid black;
+}
