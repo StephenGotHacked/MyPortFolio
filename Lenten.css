@@ -1,26 +1,26 @@
 .Lenten{
-    background-image: url(Lenten.jpg);
+    background-image: url("Lenten.jpg");
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
     margin: 0;
-    overflow-x: hidden;
-    padding-top: 50pt;
-    padding-bottom: 50pt;
+    padding: 0;
     display: flex;
+    height: 100vh;
+    overflow-x: hidden;
     border-top: 8px solid rgb(134, 0, 123);
     border-bottom: 8px solid rgb(134, 0, 123);
 }
 .tblstyle {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 8pt solid rgba(92, 0, 84, 0.877);
-    border-radius: 10pt;
-    font-weight: bold;
+    padding-top: 60pt;
+    padding-right: 60pt;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.border{
+.tabdata{
+    background-color: rgba(243, 182, 255, 0.842);
     padding:10pt;
     border: 2pt solid rgb(138, 11, 127);
     border-radius: 10pt;
@@ -31,7 +31,42 @@
     font-family: 'Brush Script MT';
 }
 
-td{
+.Lentable th{
     padding-left: 10pt;
     padding-right: 10pt;
+}
+
+.Lentail .lenT{
+    display: flex;
+    margin: auto;
+    margin-left: 40pt;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.Lentail p{
+    display: flex;
+    margin: auto;
+    margin-left: 80pt;
+    text-align: center;
+}
+.here{
+    padding-top: 80pt;
+    text-align: center;
+    margin: auto;
+}
+
+#means{
+    padding-top: 80pt;
+    text-align: center;
+    margin: auto;
+}
+
+.hiddenmess{
+    display: none;
+}
+
+.selected{
+    background-color: rgba(163, 112, 173, 0.842);
+    color: rgb(251, 232, 255);
 }
