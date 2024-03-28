@@ -1,12 +1,37 @@
 .Lenten{
-    background-color: rgb(255, 199, 115);
-    padding-top: 40pt;
-    padding-bottom: 40pt;
+    background-image: url("Lenten.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
     margin: 0;
-    padding: 0;
     overflow-x: hidden;
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+    display: flex;
+    border-top: 8px solid rgb(134, 0, 123);
+    border-bottom: 8px solid rgb(134, 0, 123);
 }
 .tblstyle {
-    background-color: rgba(255, 199, 115, 0.7);
-    border: 10pt solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 8pt solid rgba(92, 0, 84, 0.877);
+    border-radius: 10pt;
+    font-weight: bold;
+    display: flex;
+    margin: 0 auto;
+}
+
+.border{
+    padding:10pt;
+    border: 2pt solid rgb(138, 11, 127);
+    border-radius: 10pt;
+}
+
+.titable{
+    text-align: center;
+    font-family: 'Brush Script MT';
+}
+
+td{
+    padding-left: 10pt;
+    padding-right: 10pt;
 }
