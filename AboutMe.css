@@ -22,10 +22,10 @@
 }
 
 .profpic{
-    border: 10pt;
-    border-style: double;
+    border: 2pt;
+    border-style: solid;
     border-color: black;
-    transition: transform 0.4s;
+    border-radius: 40pt;
 }
 .amp{
     padding-right: 50pt;
@@ -36,18 +36,10 @@
     transform: scale(1.4);
 }
 
-.profpic:hover{
-    border: 5pt double black;
-    border-radius: 40pt;
-    transition: scale(1.4);
-}
 .am{
     color: white;
     background-color: rgba(37, 37, 37, 0.7);
     border-radius: 20px;
-    border: 3pt;
-    border-style:dashed;
-    border-color: rgb(255, 255, 255);
 }
 
 p{
