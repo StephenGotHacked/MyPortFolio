@@ -10,14 +10,14 @@
 .activities a{
             text-decoration: none;
             transition: transform 0.3s;
-            color: rgb(126, 0, 88);
+            color: rgb(0, 0, 0);
             font-weight: bold;
             font-size: 15pt;
         }
 
 .activities a:hover{
             transform: scale(1.1);
-            color: rgb(0, 0, 0);
+            color: rgb(126, 0, 88);
         }
 
 span{
