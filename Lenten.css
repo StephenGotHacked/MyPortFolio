@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
+    height: 125vh;
     overflow-x: hidden;
     border-top: 8px solid rgb(134, 0, 123);
     border-bottom: 8px solid rgb(134, 0, 123);
@@ -16,7 +16,6 @@
     padding-right: 60pt;
     display: flex;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 .tabdata{
@@ -40,25 +39,23 @@
     display: flex;
     margin: auto;
     margin-left: 40pt;
-    text-align: center;
     font-size: 50pt;
+}
+
+.Lentail .lent, p{
+    padding-right: 50pt;
 }
 
 .Lentail p{
     display: flex;
     margin: auto;
-    margin-left: 80pt;
+    margin-left: 60pt;
     text-align: center;
-}
-.here{
-    padding-top: 80pt;
-    text-align: center;
-    margin: auto;
+    font-weight: bold;
 }
 
 #means{
-    padding-top: 80pt;
-    text-align: center;
+    padding-top: 30pt;
     margin: auto;
 }
 
@@ -69,4 +66,38 @@
 .selected{
     background-color: rgba(163, 112, 173, 0.842);
     color: rgb(251, 232, 255);
+}
+
+#means p{
+    font-size:20pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.PS{
+    display: flex;
+    margin: 0;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS'; 
+    text-decoration: underline ;
+}
+
+.PS ul{
+    padding-top: 5pt;
+    padding-bottom: 20pt;
+    padding-right: 10pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    border-radius: 20pt;
+}
+
+.PS img{
+    display: flex;
+    border-radius: 20pt;
+    margin-top: 20pt;
+    transition: transform 1s;
+}
+
+.PS img:hover{
+    transform: scale(1.7);
 }
