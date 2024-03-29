@@ -1,5 +1,5 @@
 const tableData = document.querySelectorAll('.tabdata');
-const paragraphs = document.querySelectorAll('#means p');
+const paragraphs = document.querySelectorAll('#means div');
 
   tableData.forEach((element) => {
     element.addEventListener('click', function() {
