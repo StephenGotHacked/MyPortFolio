@@ -1,4 +1,5 @@
-body{
+
+            .Lenten{
                 background-image: url("Lenten.jpg");
                 background-size: cover;
                 background-position: center;
@@ -8,11 +9,6 @@ body{
                 display: flex;
                 height: 179vh;
                 overflow-x: hidden;
-            }
-
-            .Lenten{
-                border-top: 8px solid rgb(134, 0, 123);
-                border-bottom: 8px solid rgb(134, 0, 123);
             }
             
             .tbl-container{
@@ -24,7 +20,7 @@ body{
                 background-color: rgba(228, 10, 210, 0.4);
                 margin-top: 40pt;
                 margin-left: 10pt;
-                margin-right: 30pt;
+                margin-right: 40pt;
                 border-radius: 20pt;
                 padding-bottom: 30pt;
                 padding-top: 20pt;
@@ -49,6 +45,10 @@ body{
                 padding-right: 10pt;
             }
 
+            .Lentail2{
+                border-top: 8px solid rgb(134, 0, 123);
+                border-bottom: 8px solid rgb(134, 0, 123);
+            }
             .Lentail .lenT{
                 text-align: center;
                 font-size: 50pt;
@@ -68,6 +68,10 @@ body{
             #means{
                 padding-top: 30pt;
                 margin: auto;
+            }
+
+            #means .drop{
+                text-decoration: none;
             }
 
             .hiddenmess{
