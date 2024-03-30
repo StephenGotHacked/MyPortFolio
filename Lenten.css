@@ -1,103 +1,118 @@
-.Lenten{
-    background-image: url("Lenten.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: 130vh;
-    overflow-x: hidden;
-    border-top: 8px solid rgb(134, 0, 123);
-    border-bottom: 8px solid rgb(134, 0, 123);
-}
-.tblstyle {
-    padding-top: 60pt;
-    padding-right: 60pt;
-    display: flex;
-    margin: auto;
-}
+body{
+                background-image: url("Lenten.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat:no-repeat;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                height: 179vh;
+                overflow-x: hidden;
+            }
 
-.tabdata{
-    background-color: rgba(243, 182, 255, 0.842);
-    padding:10pt;
-    border: 2pt solid rgb(138, 11, 127);
-    border-radius: 10pt;
-}
+            .Lenten{
+                border-top: 8px solid rgb(134, 0, 123);
+                border-bottom: 8px solid rgb(134, 0, 123);
+            }
+            
+            .tbl-container{
+              margin-left: 60pt;
+            }
+            
+            .tblstyle {
+                border: 2pt solid rgb(134, 0, 123);
+                background-color: rgba(228, 10, 210, 0.4);
+                margin-top: 40pt;
+                margin-left: 10pt;
+                margin-right: 30pt;
+                border-radius: 20pt;
+                padding-bottom: 30pt;
+                padding-top: 20pt;
+                padding-right: 40pt;
+                padding-left: 40pt;
+            }
 
-.titable{
-    text-align: center;
-    font-family: 'Brush Script MT';
-}
+            .tabdata{
+                background-color: rgba(243, 182, 255, 0.842);
+                padding:10pt;
+                border: 2pt solid rgb(138, 11, 127);
+                border-radius: 10pt;
+            }
 
-.Lentable th{
-    padding-left: 10pt;
-    padding-right: 10pt;
-}
+            .titable{
+                text-align: center;
+                font-family: 'Brush Script MT';
+            }
 
-.Lentail .lenT{
-    display: flex;
-    margin: auto;
-    margin-left: 40pt;
-    font-size: 50pt;
-}
+            .Lentable th{
+                padding-left: 10pt;
+                padding-right: 10pt;
+            }
 
-.Lentail .lent, p{
-    padding-right: 50pt;
-}
+            .Lentail .lenT{
+                text-align: center;
+                font-size: 50pt;
+            }
 
-.Lentail p{
-    display: flex;
-    margin: auto;
-    margin-left: 60pt;
-    text-align: center;
-    font-weight: bold;
-}
+            .Lentail .lent, p{
+                padding-right: 50pt;
+            }
 
-#means{
-    padding-top: 30pt;
-    margin: auto;
-}
+            .Lentail p{
+                text-align: center;
+                margin-bottom: 0;
+                margin-left: 60pt;
+                font-weight: bold;
+            }
 
-.hiddenmess{
-    display: none;
-}
+            #means{
+                padding-top: 30pt;
+                margin: auto;
+            }
 
-.selected{
-    background-color: rgba(163, 112, 173, 0.842);
-    color: rgb(251, 232, 255);
-}
+            .hiddenmess{
+                display: none;
+                opacity: 0; 
+                transition: opacity 0.5s ease;
+                
+            }
 
-#means p{
-    font-size:20pt;
-    font-weight: bold;
-    text-align: center;
-}
+            .selected{
+                background-color: rgba(163, 112, 173, 0.842);
+                color: rgb(251, 232, 255);
+            }
 
-.PS{
-    display: flex;
-    margin: 0;
-    font-size: 15pt;
-    font-family: 'Trebuchet MS'; 
-    text-decoration: underline ;
-}
+            #means p{
+                font-size:20pt;
+                font-weight: bold;
+                text-align: center;
+                
+                text-decoration: underline ;
+            }
 
-.PS ul{
-    padding-top: 5pt;
-    padding-bottom: 20pt;
-    padding-right: 10pt;
-    margin-left: 20pt;
-    margin-right: 20pt;
-    border-radius: 20pt;
-}
+            .PS{
+                display: flex;
+                margin: 0;
+                font-size: 15pt;
+                font-family: 'Trebuchet MS'; 
+            }
 
-.PS img{
-    display: flex;
-    border-radius: 20pt;
-    margin-top: 20pt;
-    transition: transform 1s;
-}
+            .PS ul{
+                padding-top: 5pt;
+                padding-bottom: 20pt;
+                padding-right: 10pt;
+                margin-left: 20pt;
+                margin-right: 20pt;
+                border-radius: 20pt;
+            }
 
-.PS img:hover{
-    transform: scale(1.7);
-}
+            .PS img{
+                display: flex;
+                border-radius: 20pt;
+                margin-top: 20pt;
+                transition: transform 1s;
+            }
+
+            .PS img:hover{
+                transform: scale(1.7);
+            }
