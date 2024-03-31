@@ -3,24 +3,24 @@
             border-top: 5pt solid black;
             border-bottom: 5pt solid black;;
             text-align: center;
-            padding-top: 5pt;
-            padding-bottom: 5pt;
+            padding-top: 10pt;
+            padding-bottom: 40pt;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-.activities a{
+        .activities a{
             text-decoration: none;
-            transition: transform 0.3s;
             color: rgb(0, 0, 0);
             font-weight: bold;
             font-size: 15pt;
+            transition:all 3s;
         }
 
-.activities a:hover{
+        .activities a:hover{
             transform: scale(1.1);
             color: rgb(126, 0, 88);
         }
 
-span{
+        span{
             padding-left: 100pt;
             padding-right: 100pt;
         }
